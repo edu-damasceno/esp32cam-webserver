@@ -1,0 +1,25 @@
+# Build files
+build/
+*.o
+*.elf
+*.bin
+*.hex
+
+# Arduino IDE
+*.development
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Credentials (if someone creates a local config)
+credentials.h
+config_local.h
